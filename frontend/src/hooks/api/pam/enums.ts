@@ -14,7 +14,8 @@ export enum PamAccountType {
   GcpServiceAccount = "gcp-service-account",
   AzureCli = "azure-cli",
   Windows = "windows",
-  WindowsAd = "windows-ad"
+  WindowsAd = "windows-ad",
+  WebApp = "web-app"
 }
 
 export enum PamDiscoveryType {
@@ -143,7 +144,8 @@ export enum SessionChannelType {
   Terminal = "terminal",
   Exec = "exec",
   Sftp = "sftp",
-  Rdp = "rdp"
+  Rdp = "rdp",
+  Web = "web"
 }
 
 export enum PamSessionStatus {
